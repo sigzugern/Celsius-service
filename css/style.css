@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+picture{
+    width: 100%;
+}
+picture img{
+    width: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5vh 5vw;
+    background-color: lightgreen;
+}
+header picture{
+    flex: 1;
+}
+.topnav{
+    flex: 1;
+}
+.topnav ul{
+    padding: 3vh 3vw;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+}
+
+.home{
+    padding: 5vh 5vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.home-txt{
+    min-width: 360px;
+}
+.home-txt h1{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+.home-pic{
+    min-width: 50%;
+    
+}
