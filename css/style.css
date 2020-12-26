@@ -16,6 +16,12 @@ header{
     position: fixed;
     width: 100%;
 }
+.cta-home{
+    background-image: url("../img/logo.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 25px 100px;
+}
 .topnav ul{
     list-style: none;
     display: flex;
@@ -30,7 +36,12 @@ header{
 }
 .topnav ul li a:hover{
     color: white;
+    background-color: transparent;
     transition: 0.3s;
+}
+.this-site{
+    padding: 1vh 1vw;
+    background-color: white;
 }
 
 .home{
@@ -96,4 +107,9 @@ header{
     padding: 3vh 6vw;
     text-decoration: none;
     color: black;   
+}
+.cta-kontakt_oss a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.3s;
 }

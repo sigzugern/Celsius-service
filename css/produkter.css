@@ -1,0 +1,21 @@
+img{
+    height: 100%;
+}
+
+.sec1{
+    padding-top: 15vh;
+    width: 90%;
+    margin: auto;
+}
+.pic1{
+
+}
+.box1{
+    display: flex;
+}
+.txt1{
+    width: 50%;
+}
+.pic2{
+    width: 50%;
+}
