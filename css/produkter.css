@@ -1,21 +1,25 @@
-img{
-    height: 100%;
-}
-
 .sec1{
-    padding-top: 15vh;
+    padding-top: 10vh;
     width: 90%;
     margin: auto;
 }
-.pic1{
+.box1{
+    padding: 5vh;
+}
+table{
+    width: 100%;
+}
+tr{
+}
+td, th{
+    width: 50%;
+    text-align: center;
 
 }
-.box1{
-    display: flex;
+td{
+    background-color: #146e44;
+    color: white;
 }
-.txt1{
-    width: 50%;
-}
-.pic2{
-    width: 50%;
+th{
+    height: 30vh;
 }
