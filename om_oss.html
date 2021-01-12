@@ -9,6 +9,18 @@
 
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    
+            <!-- Script for hamburger menu -->
+            <script>
+                function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+                }
+        
+                function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+                }
+            </script>
+    
     </head>
 
     <body>
@@ -30,6 +42,25 @@
                     </li>
                 </ul>
             </div>
+
+            <!-- Hamburger menu background -->
+            <div id="myNav" class="overlay">
+
+                <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a>
+    
+                <div class="overlay-cont">
+                    <a href="index.html" onclick="closeNav()">Hjem</a>
+                    <a href="produkter.html" onclick="closeNav()">Produkter</a>
+                    <a href="om_oss.html" onclick="closeNav()">Om oss</a>
+                    <a href="kontakt_oss.html">Kontakt oss</a>
+                </div>
+  
+            </div>
+  
+            <span tabindex="1"  href="javascript:void(0);" title="Hamburger-menu" role="menu" id="hamburger" onclick="openNav()" onfocus="focus()">
+                  <img class="hamburger-icon" src="img/hamburger.svg" alt="Hamburger-menu icon">
+            </span>
+
         </header>
 
         <section class="sec1">
@@ -47,22 +78,34 @@
                 <img src="img/montør2.jpg" alt="">
             </picture>
         </section>
-        <section class="arbeider">
-            <div class="title">
-                <p><strong>Svein Jarle Skyrud</strong></p>
-                <p>60 år gammal og greier</p>
+
+        <section class="ansatte">
+            <div class="ansatt">
+                <div class="title">
+                    <p><strong>Svein Jarle Skyrud</strong></p>
+                    <p>60 år gammal og greier</p>
+                </div>
+                <picture class="profil">
+                    <img src="img/svein.jpg" alt="">
+                </picture>
             </div>
-            <picture class="profil">
-                <img src="img/svein.jpg" alt="">
-            </picture>
-        </section>
-        <section class="arbeider">
-            <picture class="profil">
-                <img src="img/jim.jpg" alt="">
-            </picture>
-            <div class="title">
-                <p><strong>Jim Westby</strong></p>
-                <p>Flittig kar</p>
+            <div class="ansatt">
+                <picture class="profil">
+                    <img src="img/jim.jpg" alt="">
+                </picture>
+                <div class="title">
+                    <p><strong>Jim Westby</strong></p>
+                    <p>Flittig kar</p>
+                </div>
+            </div>
+            <div class="ansatt">
+                <picture class="profil">
+                    <img src="img/magnus.jpg" alt="">
+                </picture>
+                <div class="title">
+                    <p><strong>Magnus</strong></p>
+                    <p>Ålreit fyr</p>
+                </div>
             </div>
         </section>
 

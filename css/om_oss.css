@@ -5,30 +5,40 @@ section{
     flex-wrap: wrap;
 }
 .sec1{
-    padding-top: 15vh;
+    padding-top: 20vh;
     align-items: center;
+    justify-content: center;
 }
 .txt1{
     width: 60%;
     min-width: 360px;
 }
 .top-pic{
-    width: 40%;
+    width: 35%;
     min-width: 360px;
+    padding: 2vh 2vw;
 }
 
-.arbeider{
+.ansatte{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.ansatt{
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2vh auto;
-    padding: 3vh;
+    padding: 2vh 2vw;
+    width: 30vw;
+    min-width: 360px;
+    margin: 2vh 2vw;
     border: #146e44 solid 3px;
 }
 .title{
-    width: 50%;
     text-align: center;
+    padding: 3vh 3vw;
 }
 .profil{
     width: 20vw;
-    height: 30vh;
+    min-width: 200px;
 }

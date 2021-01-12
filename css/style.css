@@ -9,6 +9,8 @@ img{
     width: 100%;
     height: 100%;
 }
+
+/* Header CSS */
 header{
     display: flex;
     justify-content: space-around;
@@ -39,7 +41,7 @@ header{
 .topnav ul li a:hover{
     color: #146e44;
     background-color: transparent;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 .this-site{
 
@@ -49,18 +51,112 @@ header{
     text-decoration: underline;
 }
 
+/* Hamburger Menu */
+.overlay, .overlay-cont, #hamburger{
+    display: none;
+}
+
+@media only screen and (max-width: 1200px){
+    .topnav{
+        display: none;
+    }
+    #hamburger{
+        display: flex;
+        padding: 1vh 1.5vw;
+        border-radius: 50px;
+    }
+    #hamburger img{
+        width: 50px;
+        cursor: pointer;
+    }
+    .hamburger-icon{
+        text-decoration: underline;
+    }
+    .overlay, .overlay-cont, #hamburger{
+        display: block;
+    }
+    .overlay{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.4s;
+    }
+    .overlay-cont{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .overlay a{
+        padding: 8px;
+        text-decoration: none;
+        font-size: 20px;
+        color: black;
+        display: block;
+        transition: 0.3s;
+    }
+    .overlay a:hover, .overlay a:focus{
+        color: #146e44;
+        text-decoration: underline;
+        transition: 0.2s;
+    }
+    .overlay .closebtn{
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        font-size: 40px;
+    }
+
+}
+
+
 .home{
+    padding-top: 10vh;
     background-image: url("../img/background_home.jpg");
     background-size: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-box{
+    width: 30vw;
+    min-width: 360px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 80vh;
+    flex-wrap: wrap;
 }
 .home-txt{
+    width: 100%;
+    text-align: center;
     color: white;
     background-color: #146e44;
-    padding: 5vh 8vw;
+    padding: 5vh 3vw;
+}
+.kontakt_oss-btnbox{
+    text-align: center;
+    width: 60%;
+    margin-top: 1vh;
+}
+.kontakt_oss-btnbox a{
+    background-color: white;
+    border: black solid 2px;
+    padding: 2.5vh 2vw;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.kontakt_oss-btnbox a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
 }
 
 .om_oss_sec{
@@ -68,21 +164,33 @@ header{
     margin: auto;
     padding: 3vh;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .om_oss_sec-txt{
     width: 50%;
-    font-size: 1.4em;
+    min-width: 360px;
+    font-size: 1.2em;
 }
 .om_oss_sec-pic1{
-    height: 40vh;
-}
-.om_oss_sec-pic1 img{
-    width: auto;
-    height: 100%;
+    width: 40vw;
+    min-width: 360px;
+    padding-top: 2vh;
 }
 
+@media only screen and (max-width: 1000px){
+    .om_oss_sec-txt{
+        width: 100%;
+    }
+    .om_oss_sec-pic1{
+        width: 100%;
+    }
+
+}
+
+/* Kontakt oss CSS */
 .kontakt_oss_sec{
     width: 90%;
     margin: auto;
@@ -120,11 +228,25 @@ header{
 .cta-kontakt_oss a:hover{
     color: white;
     background-color: black;
-    transition: 0.3s;
+    transition: 0.2s;
+}
+@media only screen and (max-width: 1000px){
+    .kontakt_oss_sec-info{
+        justify-content: center;
+    }
+    .kontakt_oss_sec-txt{
+        width: 100%;
+    }
+    .cta-kontakt_oss{
+    }
 }
 
+/* Footer CSS */
 footer{
     margin-top: 5vh;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     background-color: #093b24;
     color: white;
 }
@@ -141,6 +263,9 @@ footer{
 }
 .footer-list-box ul li{
     padding: 2vh;
+}
+.footer-list-box ul li a{
+    color: white;
 }
 .copyright{
     border-top: black solid 2px;

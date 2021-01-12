@@ -1,0 +1,26 @@
+.sec1{
+    background-image: url("../img/vinter.jpg");
+    padding: 30vh 10vw;
+    padding-top: 30vh;
+}
+.kontakt-box1{
+    padding: 10vh 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.kontakt-oss-txt{
+    padding: 3vh 3vw;
+}
+.kontakt-oss-liste{
+
+}
+ul{
+    list-style: none;
+}
+
+footer{
+    margin-top: 0;
+}
