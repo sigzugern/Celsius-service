@@ -1,15 +1,17 @@
 .sec1{
     padding-top: 20vh;
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 .box1{
     padding: 5vh;
 }
 table{
-    width: 100%;
+    width: 80%;
+    margin: auto;
 }
 tr{
+    
 }
 td, th{
     width: 50%;

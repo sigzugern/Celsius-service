@@ -12,10 +12,15 @@
     background-color: white;
 }
 .kontakt-oss-txt{
-    padding: 3vh 3vw;
+    padding: 2vh;
+    width: 50%;
+    min-width: 360px;
 }
 .kontakt-oss-liste{
-
+    min-width: 360px;
+}
+.kontakt-oss-liste ul li{
+    padding: 1vh;
 }
 ul{
     list-style: none;

@@ -15,7 +15,7 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 2vh 1vw;
+    padding: 3vh;
     background-color: white;
     position: fixed;
     width: 100%;
@@ -25,6 +25,9 @@ header{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     padding: 50px 100px;
+}
+.cta-home:hover{
+
 }
 .topnav ul{
     list-style: none;
@@ -137,14 +140,13 @@ header{
     text-align: center;
     color: white;
     background-color: #146e44;
-    padding: 5vh 3vw;
+    padding: 8vh;
 }
 .kontakt_oss-btnbox{
-    text-align: center;
-    width: 60%;
-    margin-top: 1vh;
+    
 }
 .kontakt_oss-btnbox a{
+    text-align: center;
     background-color: white;
     border: black solid 2px;
     padding: 2.5vh 2vw;
@@ -160,7 +162,7 @@ header{
 }
 
 .om_oss_sec{
-    width: 90%;
+    width: 80%;
     margin: auto;
     padding: 3vh;
     display: flex;
@@ -170,12 +172,12 @@ header{
     justify-content: space-around;
 }
 .om_oss_sec-txt{
-    width: 50%;
+    width: 40%;
     min-width: 360px;
     font-size: 1.2em;
 }
 .om_oss_sec-pic1{
-    width: 40vw;
+    width: 30vw;
     min-width: 360px;
     padding-top: 2vh;
 }
@@ -192,13 +194,13 @@ header{
 
 /* Kontakt oss CSS */
 .kontakt_oss_sec{
-    width: 90%;
+    width: 80%;
     margin: auto;
 }
 .kontakt_oss_sec-header{
     color: white;
     background-color: #146e44;
-    padding: 5vh 5vw;
+    padding: 8vh 5vw;
     text-align: center;
     font-size: 0.9em;
 }
@@ -209,7 +211,7 @@ header{
     align-items: center;
 }
 .kontakt_oss_sec-txt{
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: 3vh 0;
     width: 50%;
 }
@@ -244,25 +246,30 @@ header{
 /* Footer CSS */
 footer{
     margin-top: 5vh;
-    position: relative;
+    position: static;
     bottom: 0;
     width: 100%;
-    background-color: #093b24;
+    background-color: #146e44;
     color: white;
 }
 .fotsec1{
     padding: 5vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 .footer-txt{
-    width: 400px;
+    width: 20%;
+    min-width: 360px;
+}
+.footer-list-box{
 }
 .footer-list-box ul{
     list-style: none;
 }
 .footer-list-box ul li{
-    padding: 2vh;
+    padding: 1vh;
 }
 .footer-list-box ul li a{
     color: white;

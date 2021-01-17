@@ -28,17 +28,18 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2vh 2vw;
+    padding: 5vh 3vw;
     width: 30vw;
     min-width: 360px;
     margin: 2vh 2vw;
     border: #146e44 solid 3px;
+    background-color: lightgray;
 }
 .title{
-    text-align: center;
-    padding: 3vh 3vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 .profil{
-    width: 20vw;
-    min-width: 200px;
+    width: 18vw;
+    min-width: 150px;
 }
