@@ -19,6 +19,7 @@ header{
     background-color: white;
     position: fixed;
     width: 100%;
+    box-shadow: 0px 1px 10px gray;
 }
 .cta-home{
     background-image: url("../img/logo.png");
