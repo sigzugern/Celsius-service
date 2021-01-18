@@ -164,7 +164,7 @@ header{
     .home{
         background-image: none;
         height: 2vw;
-        padding-top: 22vw;
+        padding-top: 30vw;
     }
     .home-txt{
         display: none;
@@ -219,7 +219,7 @@ header{
 .kontakt_oss_sec-header{
     color: white;
     background-color: #146e44;
-    padding: 8vw 5vw;
+    padding: 5vw 5vw;
     text-align: center;
     font-size: 0.9em;
 }
@@ -283,6 +283,7 @@ footer{
     min-width: 360px;
 }
 .footer-list-box{
+    min-width: 400px;
 }
 .footer-list-box ul{
     list-style: none;
@@ -299,7 +300,10 @@ footer{
     text-align: center;
 }
 @media only screen and (max-width: 1000px){
-    .fotsec1{
-        justify-content: flex-start;
+    footer{
+        font-size: 1.2em;
+    }
+    .footer-txt{
+        width: 100%;
     }
 }
