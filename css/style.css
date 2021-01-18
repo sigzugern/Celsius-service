@@ -70,7 +70,7 @@ header{
         border-radius: 50px;
     }
     #hamburger img{
-        width: 50px;
+        width: 40px;
         cursor: pointer;
     }
     .hamburger-icon{
@@ -163,8 +163,8 @@ header{
 @media only screen and (max-width: 1000px){
     .home{
         background-image: none;
-        height: 2vh;
-        padding-top: 25vh;
+        height: 2vw;
+        padding-top: 22vw;
     }
     .home-txt{
         display: none;
@@ -200,7 +200,7 @@ header{
 
 @media only screen and (max-width: 1000px){
     .om_oss_sec{
-        padding-top: 8vh;
+        padding-top: 8vw;
     }
     .om_oss_sec-txt{
         width: 100%;
@@ -219,7 +219,7 @@ header{
 .kontakt_oss_sec-header{
     color: white;
     background-color: #146e44;
-    padding: 8vh 5vw;
+    padding: 8vw 5vw;
     text-align: center;
     font-size: 0.9em;
 }
