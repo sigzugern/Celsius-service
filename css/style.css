@@ -145,7 +145,7 @@ header{
     text-align: center;
     color: white;
     background-color: #146e44;
-    padding: 3vw;
+    padding: 3.5vw;
     font-size: 3vh;
 }
 .kontakt_oss-btnbox{
@@ -159,7 +159,7 @@ header{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 3.5vh;
+    font-size: 3vh;
 }
 .kontakt_oss-btnbox a:hover{
     background-color: black;
@@ -226,7 +226,7 @@ header{
     background-color: #146e44;
     padding: 5vw 5vw;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 2.5vh;
 }
 .kontakt_oss_sec-info{
     display: flex;
@@ -235,7 +235,7 @@ header{
     align-items: center;
 }
 .kontakt_oss_sec-txt{
-    font-size: 1.2em;
+    font-size: 3vh;
     padding: 3vw 0;
     width: 50%;
 }
