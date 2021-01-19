@@ -40,7 +40,7 @@ header{
 .topnav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 3.5vh;
+    font-size: 28px;
 }
 .topnav ul li a:hover{
     color: #146e44;
@@ -124,6 +124,7 @@ header{
 
 }
 
+/* Home banner */
 .home{
     background-image: url("../img/background_home.jpg");
     background-size: 100%;
@@ -146,7 +147,7 @@ header{
     color: white;
     background-color: #146e44;
     padding: 3.5vw;
-    font-size: 2.5vh;
+    font-size: 20px;
 }
 .kontakt_oss-btnbox{
     
@@ -159,7 +160,7 @@ header{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 2.5vh;
+    font-size: 20px;
 }
 .kontakt_oss-btnbox a:hover{
     background-color: black;
@@ -178,6 +179,7 @@ header{
     .kontakt_oss-btnbox a{
         background-color: #146e44;
         color: white;
+        padding: 3vh 3vw;
     }
 
 }
@@ -195,7 +197,7 @@ header{
 .om_oss_sec-txt{
     width: 50%;
     min-width: 360px;
-    font-size: 2.5vh;
+    font-size: 20px;
 }
 .om_oss_sec-pic1{
     width: 35vw;
@@ -226,7 +228,7 @@ header{
     background-color: #146e44;
     padding: 5vw 5vw;
     text-align: center;
-    font-size: 2.2vh;
+    font-size: 18px;
 }
 .kontakt_oss_sec-info{
     display: flex;
@@ -235,7 +237,7 @@ header{
     align-items: center;
 }
 .kontakt_oss_sec-txt{
-    font-size: 2.5vh;
+    font-size: 20px;
     padding: 3vw 0;
     width: 50%;
 }
@@ -243,12 +245,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 2.8vh;
+    font-size: 20px;
 }
 .cta-kontakt_oss a{
     background-color: #146e44;
     border: black solid 3px;
-    padding: 4vh 4vw;
+    padding: 3vh 3vw;
     text-decoration: none;
     color: white;   
 }
