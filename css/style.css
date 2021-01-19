@@ -137,6 +137,7 @@ header{
 .home-box{
     width: 30vw;
     min-width: 360px;
+    margin-top: 20vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -286,9 +287,10 @@ footer{
 .footer-txt{
     min-width: 20%;
     max-width: 50%;
+    font-size: 20px;
 }
 .footer-list-box{
-
+    font-size: 20px;
 }
 .footer-list-box ul{
     list-style: none;
