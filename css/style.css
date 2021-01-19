@@ -243,11 +243,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4em;
+    font-size: 3vh;
 }
 .cta-kontakt_oss a{
     background-color: #146e44;
-    padding: 3vw 6vw;
+    border: black solid 3px;
+    padding: 4vh 4vw;
     text-decoration: none;
     color: white;   
 }
