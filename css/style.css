@@ -40,7 +40,7 @@ header{
 .topnav ul li a{
     text-decoration: none;
     color: black;
-    font-size: 4vh;
+    font-size: 3.5vh;
 }
 .topnav ul li a:hover{
     color: #146e44;
@@ -93,7 +93,7 @@ header{
         top: 0;
         background-color: white;
         overflow-x: hidden;
-        transition: 0.4s;
+        transition: 0.2s;
     }
     .overlay-cont{
         position: relative;
@@ -108,7 +108,7 @@ header{
         font-size: 20px;
         color: black;
         display: block;
-        transition: 0.3s;
+        transition: 0.2s;
     }
     .overlay a:hover, .overlay a:focus{
         color: #146e44;
@@ -146,7 +146,7 @@ header{
     color: white;
     background-color: #146e44;
     padding: 3.5vw;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 .kontakt_oss-btnbox{
     
@@ -159,7 +159,7 @@ header{
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 .kontakt_oss-btnbox a:hover{
     background-color: black;
