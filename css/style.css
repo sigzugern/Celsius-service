@@ -195,7 +195,7 @@ header{
 .om_oss_sec-txt{
     width: 50%;
     min-width: 360px;
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
 .om_oss_sec-pic1{
     width: 35vw;
@@ -226,7 +226,7 @@ header{
     background-color: #146e44;
     padding: 5vw 5vw;
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 2.2vh;
 }
 .kontakt_oss_sec-info{
     display: flex;
@@ -235,7 +235,7 @@ header{
     align-items: center;
 }
 .kontakt_oss_sec-txt{
-    font-size: 3vh;
+    font-size: 2.5vh;
     padding: 3vw 0;
     width: 50%;
 }
@@ -243,7 +243,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 3vh;
+    font-size: 2.8vh;
 }
 .cta-kontakt_oss a{
     background-color: #146e44;
@@ -282,7 +282,8 @@ footer{
     align-items: center;
 }
 .footer-txt{
-    width: 20%;
+    min-width: 20%;
+    max-width: 50%;
 }
 .footer-list-box{
 
@@ -291,7 +292,7 @@ footer{
     list-style: none;
 }
 .footer-list-box ul li{
-    padding: 1vw;
+    padding: 1vh;
 }
 .footer-list-box ul li a{
     color: white;
@@ -301,10 +302,7 @@ footer{
     padding: 2vw;
     text-align: center;
 }
-@media only screen and (max-width: 1000px){
-    footer{
-        font-size: 3vh;
-    }
+@media only screen and (max-width: 1000px){ß
     .footer-txt{
         width: 100%;
     }
