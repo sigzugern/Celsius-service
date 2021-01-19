@@ -272,24 +272,20 @@ header{
 footer{
     margin-top: 5vw;
     position: static;
-    bottom: 0;
-    width: 100%;
     background-color: #146e44;
     color: white;
 }
 .fotsec1{
-    padding: 5vw;
+    padding: 3vw;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 .footer-txt{
     width: 20%;
-    min-width: 360px;
 }
 .footer-list-box{
-    min-width: 400px;
+
 }
 .footer-list-box ul{
     list-style: none;
@@ -307,7 +303,7 @@ footer{
 }
 @media only screen and (max-width: 1000px){
     footer{
-        font-size: 1.2em;
+        font-size: 3vh;
     }
     .footer-txt{
         width: 100%;
