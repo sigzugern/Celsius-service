@@ -1,4 +1,5 @@
 section{
+    font-size: 20px;
     width: 90%;
     margin: auto;
     display: flex;
@@ -36,6 +37,7 @@ section{
     background-color: lightgray;
 }
 .title{
+    font-size: 18px;
     padding-left: 2vw;
     padding-right: 2vw;
 }

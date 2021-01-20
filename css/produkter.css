@@ -1,3 +1,6 @@
+*{
+    font-size: 20px;
+}
 .sec1{
     padding-top: 20vh;
     width: 80%;
@@ -23,5 +26,5 @@ td{
     color: white;
 }
 th{
-    height: 30vh;
+    height: 20vh;
 }

@@ -56,7 +56,15 @@ header{
 }
 @media only screen and (max-width: 1000px){
     header{
-        height: 18vw;
+        height: 9vw;
+    }
+}
+@media only screen and (max-width: 700px){
+    header{
+        height: 12vw;
+    }
+    .cta-home{
+        padding: 40px 90px;
     }
 }
 
@@ -75,7 +83,7 @@ header{
         border-radius: 50px;
     }
     #hamburger img{
-        width: 40px;
+        width: 30px;
         cursor: pointer;
     }
     .hamburger-icon{
@@ -105,7 +113,7 @@ header{
     .overlay a{
         padding: 8px;
         text-decoration: none;
-        font-size: 20px;
+        font-size: 25px;
         color: black;
         display: block;
         transition: 0.2s;
@@ -137,7 +145,7 @@ header{
 .home-box{
     width: 30vw;
     min-width: 360px;
-    margin-top:12vw;
+    margin-top: 5vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -172,8 +180,13 @@ header{
 }
 @media only screen and (max-width: 1000px){
     .home{
+        padding-top: 4vw;
+    }
+}
+@media only screen and (max-width: 700px){
+    .home{
         background-image: none;
-        padding-top: 12vw;
+        padding-top: 8vw;
     }
     .home-txt{
         display: none;
@@ -252,7 +265,7 @@ header{
 .cta-kontakt_oss a{
     background-color: #146e44;
     border: black solid 3px;
-    padding: 2vw 3vw;
+    padding: 2.5vw 3vw;
     text-decoration: none;
     color: white;   
 }
@@ -283,22 +296,25 @@ footer{
 .fotsec1{
     padding: 3vw;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
 .footer-txt{
-    min-width: 20%;
+    min-width: 360px;
     max-width: 50%;
     font-size: 20px;
 }
 .footer-list-box{
+    min-width: 360px;
     font-size: 20px;
+    padding-top: 2vw;
 }
 .footer-list-box ul{
     list-style: none;
 }
 .footer-list-box ul li{
-    padding: 0.5vw;
+    padding: 1vw;
 }
 .footer-list-box ul li a{
     color: white;
