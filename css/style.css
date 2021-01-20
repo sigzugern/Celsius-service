@@ -54,12 +54,12 @@ header{
     color: #146e44;
     text-decoration: underline;
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     header{
         height: 9vw;
     }
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
     header{
         height: 12vw;
     }
@@ -183,7 +183,7 @@ header{
         padding-top: 4vw;
     }
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
     .home{
         background-image: none;
         padding-top: 8vw;
@@ -288,7 +288,7 @@ header{
 
 /* Footer CSS */
 footer{
-    margin-top: 3vw;
+    margin-top: 6vw;
     position: static;
     background-color: #146e44;
     color: white;
@@ -323,7 +323,7 @@ footer{
     padding: 2vw;
     text-align: center;
 }
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
     .fotsec1{
         padding: 5vw;
     }
