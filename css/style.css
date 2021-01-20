@@ -137,7 +137,7 @@ header{
 .home-box{
     width: 30vw;
     min-width: 360px;
-    margin-top: 20vh;
+    margin-top:12vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -182,7 +182,7 @@ header{
     .kontakt_oss-btnbox a{
         background-color: #146e44;
         color: white;
-        padding: 3vh 3vw;
+        padding: 4vw 3vw;
     }
 
 }
@@ -253,7 +253,7 @@ header{
 .cta-kontakt_oss a{
     background-color: #146e44;
     border: black solid 3px;
-    padding: 3vh 3vw;
+    padding: 2vw 3vw;
     text-decoration: none;
     color: white;   
 }
@@ -298,7 +298,7 @@ footer{
     list-style: none;
 }
 .footer-list-box ul li{
-    padding: 1vh;
+    padding: 0.5vw;
 }
 .footer-list-box ul li a{
     color: white;
