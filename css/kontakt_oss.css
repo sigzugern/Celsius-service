@@ -5,7 +5,7 @@
     padding-top: 40vh;
 }
 .kontakt-box1{
-    padding: 8vh 5vw;
+    padding: 8vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -35,5 +35,11 @@ footer{
     .sec1{
         padding: 0;
         padding-top: 10vw;
+    }
+    .kontakt-box1{
+
+    }
+    .kontakt-oss-txt{
+        width: 100%;
     }
 }

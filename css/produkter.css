@@ -8,7 +8,6 @@
     padding: 5vh;
 }
 table{
-    width: 80%;
     margin: auto;
 }
 tr{
@@ -25,4 +24,12 @@ td{
 }
 th{
     height: 25vh;
+}
+@media only screen and (max-width: 1000px){
+    .sec1{
+        width: 90%;
+    }
+    td, th{
+        width: 50%;
+    }
 }
