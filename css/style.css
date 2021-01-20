@@ -178,12 +178,12 @@ header{
     color: white;
     transition: 0.2s;
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1500px){
     .home{
         padding-top: 4vw;
     }
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
     .home{
         background-image: none;
         padding-top: 8vw;
@@ -323,7 +323,7 @@ footer{
     padding: 2vw;
     text-align: center;
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 1000px){
     .fotsec1{
         padding: 5vw;
     }
