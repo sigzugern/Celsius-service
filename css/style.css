@@ -173,8 +173,7 @@ header{
 @media only screen and (max-width: 1000px){
     .home{
         background-image: none;
-        height: 2vw;
-        padding-top: 30vw;
+        padding-top: 12vw;
     }
     .home-txt{
         display: none;
@@ -210,7 +209,7 @@ header{
 
 @media only screen and (max-width: 1000px){
     .om_oss_sec{
-        padding-top: 8vw;
+
     }
     .om_oss_sec-txt{
         width: 100%;
@@ -229,7 +228,7 @@ header{
 .kontakt_oss_sec-header{
     color: white;
     background-color: #146e44;
-    padding: 5vw 5vw;
+    padding: 6vw 6vw;
     text-align: center;
     font-size: 18px;
 }
@@ -253,7 +252,7 @@ header{
 .cta-kontakt_oss a{
     background-color: #146e44;
     border: black solid 3px;
-    padding: 2nvw 3vw;
+    padding: 2vw 3vw;
     text-decoration: none;
     color: white;   
 }
@@ -270,6 +269,7 @@ header{
         width: 100%;
     }
     .cta-kontakt_oss{
+
     }
 }
 
