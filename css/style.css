@@ -64,7 +64,7 @@ header{
         height: 12vw;
     }
     .cta-home{
-        padding: 40px 90px;
+        padding: 40px 100px;
     }
 }
 
@@ -134,7 +134,7 @@ header{
 
 /* Home banner */
 .home{
-    background-image: url("../img/background_home.jpg");
+    background-image: url("../img/Industri_ute1.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 45vw;
@@ -288,13 +288,13 @@ header{
 
 /* Footer CSS */
 footer{
-    margin-top: 5vw;
+    margin-top: 3vw;
     position: static;
     background-color: #146e44;
     color: white;
 }
 .fotsec1{
-    padding: 3vw;
+    padding: 2vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -308,7 +308,6 @@ footer{
 .footer-list-box{
     min-width: 360px;
     font-size: 20px;
-    padding-top: 2vw;
 }
 .footer-list-box ul{
     list-style: none;
@@ -324,8 +323,14 @@ footer{
     padding: 2vw;
     text-align: center;
 }
-@media only screen and (max-width: 1000px){ß
+@media only screen and (max-width: 700px){
+    .fotsec1{
+        padding: 5vw;
+    }
     .footer-txt{
         width: 100%;
+    }
+    .footer-list-box{
+        padding: 4vw;
     }
 }

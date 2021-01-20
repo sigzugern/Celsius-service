@@ -1,8 +1,8 @@
 .sec1{
     font-size: 20px;
     background-image: url("../img/vinter.jpg");
-    padding: 30vh 10vw;
-    padding-top: 30vh;
+    padding: 20vh;
+    padding-top: 40vh;
 }
 .kontakt-box1{
     padding: 8vh 5vw;
@@ -21,7 +21,7 @@
     min-width: 360px;
 }
 .kontakt-oss-liste ul li{
-    padding: 1vh;
+    padding: 2vh;
 }
 ul{
     list-style: none;
