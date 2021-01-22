@@ -30,7 +30,7 @@ th{
         width: 90%;
     }
     .box1{
-        padding: 7vw;
+        padding: 6vw;
     }
     td, th{
         width: 50%;
@@ -38,6 +38,6 @@ th{
 }
 @media only screen and (max-width: 800px){
     .box1{
-        padding: 4vw;
+        padding: 3vw;
     }
 }
