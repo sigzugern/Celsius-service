@@ -118,7 +118,7 @@ header{
     .overlay a{
         padding: 8px;
         text-decoration: none;
-        font-size: 40px;
+        font-size: 60px;
         color: black;
         display: block;
         transition: 0.2s;
@@ -132,12 +132,12 @@ header{
         position: absolute;
         top: 15px;
         right: 35px;
-        font-size: 80px;
+        font-size: 100px;
     }
 
 }
 
-/* Home banner */
+/* Home section */
 .home{
     background-image: url("../img/Industri_ute1.jpg");
     background-size: 100%;
@@ -165,7 +165,7 @@ header{
     box-shadow: 0px 5px 5px gray;
 }
 .kontakt_oss-btnbox{
-    
+
 }
 .kontakt_oss-btnbox a{
     text-align: center;
@@ -176,7 +176,7 @@ header{
     color: black;
     font-weight: bold;
     font-size: 20px;
-    box-shadow: 0px 5px 5px gray;
+    box-shadow: 0px 1px 10px gray;
 }
 .kontakt_oss-btnbox a:hover{
     background-color: black;
@@ -185,12 +185,18 @@ header{
 }
 @media only screen and (max-width: 1200px){
     .home{
-        background-image: none;
-        padding-top: 16vw;
-        height: 10vw;
+        background-size: 100% 120%;
+        background-position-y: 60px;
+        padding-top: 10vw;
+        height: 25vw;
+    }
+    .home-box{
     }
     .home-txt{
         display: none;
+    }
+    .kontakt_oss-btnbox{
+
     }
     .kontakt_oss-btnbox a{
         background-color: #146e44;
@@ -200,8 +206,12 @@ header{
 }
 @media only screen and (max-width: 1000px){
     .home{
-        padding-top: 15vw;
-        height: 20vw;
+        padding-top: 12vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .home{
+        padding-top: 20vw;
     }
 }
 
@@ -338,6 +348,7 @@ footer{
 @media only screen and (max-width: 1200px){
     .fotsec1{
         padding: 5vw;
+        display: block;
     }
     .footer-txt{
         width: 100%;
@@ -345,6 +356,5 @@ footer{
     .footer-list-box{
         width: 100%;
         padding: 4vw;
-        text-align: center;
     }
 }
