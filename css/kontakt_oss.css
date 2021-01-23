@@ -1,8 +1,8 @@
 .sec1{
     font-size: 20px;
     background-image: url("../img/vinter.jpg");
-    padding: 20vh;
-    padding-top: 40vh;
+    padding: 10vw;
+    padding-top: 20vw;
 }
 .kontakt-box1{
     padding: 8vh;
@@ -34,7 +34,7 @@ footer{
 @media only screen and (max-width: 1200px){
     .sec1{
         padding: 0;
-        padding-top: 10vw;
+        padding-top: 8vw;
     }
     .kontakt-box1{
         display: block;
