@@ -21,7 +21,7 @@
     min-width: 360px;
 }
 .kontakt-oss-liste ul li{
-    padding: 2vh;
+    padding: 1vw;
 }
 ul{
     list-style: none;
@@ -34,7 +34,7 @@ footer{
 @media only screen and (max-width: 1200px){
     .sec1{
         padding: 0;
-        padding-top: 12vw;
+        padding-top: 10vw;
     }
     .kontakt-box1{
 

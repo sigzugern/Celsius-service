@@ -61,7 +61,7 @@ header{
 }
 @media only screen and (max-width: 1000px){
     header{
-        height: 12vw;
+        height: 10vw;
     }
     .cta-home{
         padding: 60px 140px;
@@ -69,7 +69,7 @@ header{
 }
 @media only screen and (max-width: 600px){
     header{
-        height: 18vw;
+        height: 16vw;
     }
 }
 

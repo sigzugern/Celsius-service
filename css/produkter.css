@@ -1,6 +1,6 @@
 .sec1{
     font-size: 20px;
-    padding-top: 20vh;
+    padding-top: 10vw;
     width: 80%;
     margin: auto;
 }
@@ -28,6 +28,7 @@ th{
 @media only screen and (max-width: 1200px){
     .sec1{
         width: 90%;
+        padding-top: 15vw;
     }
     .box1{
         padding: 6vw;
@@ -37,6 +38,9 @@ th{
     }
 }
 @media only screen and (max-width: 800px){
+    .sec1{
+        padding-top: 20vw;
+    }
     .box1{
         padding: 3vw;
     }
