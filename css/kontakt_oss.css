@@ -37,7 +37,7 @@ footer{
         padding-top: 10vw;
     }
     .kontakt-box1{
-
+        display: block;
     }
     .kontakt-oss-txt{
         width: 100%;
