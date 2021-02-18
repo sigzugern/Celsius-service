@@ -26,6 +26,13 @@
 ul{
     list-style: none;
 }
+.cta-kontakt{
+    color: black;
+}
+.cta-kontakt:hover{
+    color: #146e44;
+    transition: 0.2s;
+}
 
 footer{
     margin-top: 0;
