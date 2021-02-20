@@ -1,6 +1,8 @@
 .sec1{
     font-size: 20px;
     background-image: url("../img/vinter.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
     padding: 10vw;
     padding-top: 20vw;
 }
