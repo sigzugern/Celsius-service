@@ -134,7 +134,7 @@ header{
 
 /* Footer CSS */
 footer{
-    margin-top: 6vw;
+    margin-top: 1vw;
     position: static;
     background-color: #146e44;
     color: white;
@@ -145,12 +145,10 @@ footer{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
-    margin: auto;
 }
 .footer-txt{
     min-width: 360px;
-    width: 50%;
+    width: 60%;
     margin: auto;
     font-size: 3vh;
 }
@@ -179,16 +177,16 @@ footer{
 }
 @media only screen and (max-width: 1200px){
     .fotsec1{
+        padding: 4vh;
         display: block;
     }
     .footer-txt{
-        width: 100%;
         font-size: 3vw;
+        width: 100%;
     }
     .footer-list-box{
         padding: 0;
-        margin: auto;
-        padding-top: 5vh;
+        padding-top: 3vh;
         font-size: 3vw;
     }
     .footer-list-box ul{
@@ -197,6 +195,6 @@ footer{
         justify-content: center;
     }
     .copyright{
-        font-size: 3vw;
+        font-size: 2vw;
     }
 }

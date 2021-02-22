@@ -6,7 +6,7 @@ section{
     flex-wrap: wrap;
 }
 .sec1{
-    padding-top: 20vh;
+    padding-top: 25vh;
     align-items: center;
     justify-content: center;
 }
@@ -58,7 +58,7 @@ section{
         font-size: 3vw;
     }
     .sec1{
-        padding-top: 18vw;
+        padding-top: 35vh;
     }
     .txt1{
         width: 90%;
@@ -75,6 +75,6 @@ section{
 }
 @media only screen and (max-width: 1000px){
     .sec1{
-        padding-top: 23vw;
+        padding-top: 15vh;
     }
 }

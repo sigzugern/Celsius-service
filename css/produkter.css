@@ -1,13 +1,14 @@
 .sec1{
     font-size: 3vh;
-    padding-top: 12vw;
+    padding-top: 14vw;
     width: 80%;
     margin: auto;
 }
 .box1{
-    padding: 8vh;
+    padding: 5vh;
 }
 table{
+    display: none;
     margin: auto;
 }
 td, th{
@@ -26,9 +27,10 @@ th{
     .sec1{
         width: 90%;
         font-size: 3vw;
+        padding-top: 10vh;
     }
     .box1{
-        padding: 6vw;
+        padding: 4vh;
     }
     td, th{
         width: 50%;
