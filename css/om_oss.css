@@ -1,5 +1,5 @@
 section{
-    font-size: 20px;
+    font-size: 3vh;
     width: 90%;
     margin: auto;
     display: flex;
@@ -27,18 +27,16 @@ section{
 }
 .ansatt{
     display: flex;
-    justify-content: center;
     align-items: center;
     padding: 5vh;
     width: 30vw;
     min-width: 360px;
     margin: 2vh 2vw;
-    color: ;
     border: #146e44 solid 3px;
     background-color: rgba(20,110,68,0.4);
 }
 .title{
-    font-size: 18px;
+    font-size: 3vh;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -53,8 +51,12 @@ section{
 .profil{
     width: 18vw;
     min-width: 150px;
+    display: none;
 }
 @media only screen and (max-width: 1200px){
+    section{
+        font-size: 3vw;
+    }
     .sec1{
         padding-top: 18vw;
     }
@@ -66,6 +68,9 @@ section{
     }
     .ansatt{
         width: 90%;
+    }
+    .title{
+        font-size: 3vw;
     }
 }
 @media only screen and (max-width: 1000px){

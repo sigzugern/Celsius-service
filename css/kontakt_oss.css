@@ -1,13 +1,16 @@
 .sec1{
-    font-size: 20px;
+    font-size: 3vh;
     background-image: url("../img/vinter.jpg");
     background-repeat: no-repeat;
     background-size: auto 100%;
-    padding: 10vw;
-    padding-top: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8vw;
+    padding-top: 45vh;
 }
 .kontakt-box1{
-    padding: 8vh;
+    padding: 1.5vw;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -20,6 +23,7 @@
     min-width: 360px;
 }
 .kontakt-oss-liste{
+    padding: 2vh;
     min-width: 360px;
 }
 .kontakt-oss-liste ul li{
@@ -42,13 +46,23 @@ footer{
 
 @media only screen and (max-width: 1200px){
     .sec1{
-        padding: 0;
-        padding-top: 8vw;
+        padding: 2vw;
+        padding-top: 10vh;
+        background-image: none;
+        font-size: 3vw;
     }
     .kontakt-box1{
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
     .kontakt-oss-txt{
         width: 100%;
+    }
+    .kontakt-oss-liste ul{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
     }
 }

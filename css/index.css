@@ -1,0 +1,169 @@
+/* Home section */
+.home{
+    background-image: url("../img/industri_ute1_optimized.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-box{
+    width: 30vw;
+    min-width: 360px;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.home-txt{
+    width: 100%;
+    text-align: center;
+    color: white;
+    background-color: #146e44;
+    padding: 3.5vw;
+    font-size: 3vh;
+    box-shadow: 0px 5px 5px gray;
+}
+.kontakt_oss-btnbox a{
+    text-align: center;
+    background-color: white;
+    border: black solid 2px;
+    padding: 1.5vw 2vw;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 3vh;
+    box-shadow: 0px 1px 10px gray;
+}
+.kontakt_oss-btnbox a:hover{
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+@media only screen and (max-width: 1200px){
+    .home{
+        background-size: 100%;
+        background-position: center;
+        background-position-y: -80px;
+        padding-top: 10vw;
+        height: 30vw;
+    }
+    .home-txt{
+        display: none;
+    }
+    .kontakt_oss-btnbox{
+        width: 100vw;
+        text-align: center;
+
+    }
+    .kontakt_oss-btnbox a{
+        background-color: #146e44;
+        color: white;
+        padding: 4vw 4vw;
+        font-size: 2vw;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .home{
+        padding-top: 12vw;
+    }
+}
+@media only screen and (max-width: 600px){
+    .home{
+        padding-top: 20vw;
+    }
+}
+
+/* Om oss seksjon */
+.om_oss_sec{
+    width: 80%;
+    margin: auto;
+    padding: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.om_oss_sec-txt{
+    width: 50%;
+    min-width: 360px;
+    font-size: 3vh;
+}
+.om_oss_sec-pic1{
+    width: 35vw;
+    margin: auto;
+    min-width: 360px;
+    padding-top: 2vw;
+}
+
+@media only screen and (max-width: 1200px){
+    .om_oss_sec{
+        padding: 5vw;
+    }
+    .om_oss_sec-txt{
+        width: 100%;
+        font-size: 3vw;
+    }
+
+}
+
+/* Kontakt oss CSS */
+.kontakt_oss_sec-header{
+    color: white;
+    background-color: #146e44;
+    padding: 8vw 6vw;
+    text-align: center;
+    font-size: 2vh;
+}
+.kontakt_oss_sec{
+    width: 90%;
+    margin: auto;
+}
+.kontakt_oss_sec-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+}
+.kontakt_oss_sec-txt{
+    font-size: 3vh;
+    padding: 3vw;
+    width: 50%;
+}
+.cta-kontakt_oss{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3vh;
+}
+.cta-kontakt_oss a{
+    background-color: #146e44;
+    border: black solid 2px;
+    padding: 2vw 3vw;
+    text-decoration: none;
+    color: white;   
+}
+.cta-kontakt_oss a:hover{
+    color: white;
+    background-color: black;
+    transition: 0.2s;
+}
+@media only screen and (max-width: 1200px){
+    .kontakt_oss_sec-header{
+        font-size: 3vw;
+    }
+    .kontakt_oss_sec-info{
+        justify-content: center;
+    }
+    .kontakt_oss_sec-txt{
+        width: 100%;
+        font-size: 3vw;
+    }
+    .cta-kontakt_oss a{
+        padding: 4vw 4vw;
+        font-size: 2vw;
+    }
+}
