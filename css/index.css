@@ -11,7 +11,7 @@
 .home-box{
     width: 30vw;
     min-width: 360px;
-    margin-top: 5vw;
+    margin-top: 25vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -46,8 +46,11 @@
         background-size: 100%;
         background-position: center;
         background-position-y: -80px;
-        padding-top: 10vw;
+        padding-top: 100px;
         height: 30vw;
+    }
+    .home-box{
+        margin-top: 5vw;
     }
     .home-txt{
         display: none;
@@ -63,14 +66,9 @@
         font-size: 3vw;
     }
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1100px){
     .home{
-        padding-top: 15vw;
-    }
-}
-@media only screen and (max-width: 600px){
-    .home{
-        padding-top: 20vw;
+        padding-top: 60px;
     }
 }
 
@@ -87,13 +85,11 @@
 }
 .om_oss_sec-txt{
     width: 50%;
-    min-width: 360px;
     font-size: 3vh;
 }
 .om_oss_sec-pic1{
     width: 35vw;
     margin: auto;
-    min-width: 360px;
     padding-top: 2vw;
 }
 
@@ -102,10 +98,9 @@
         padding: 5vw;
     }
     .om_oss_sec-txt{
-        width: 100%;
+        width: auto;
         font-size: 3vw;
     }
-
 }
 
 /* Kontakt oss CSS */
@@ -114,7 +109,7 @@
     background-color: #146e44;
     padding: 8vw 6vw;
     text-align: center;
-    font-size: 2vh;
+    font-size: 3vh;
 }
 .kontakt_oss_sec{
     width: 90%;

@@ -26,7 +26,7 @@ header{
     background-image: url("../img/ny-font-logo-ubakg.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 80px 160px;
+    padding: 60px 140px;
 }
 .topnav ul{
     list-style: none;
@@ -51,20 +51,15 @@ header{
 }
 @media only screen and (max-width: 1200px){
     header{
-        height: 12vw;
-    }
-}
-@media only screen and (max-width: 1000px){
-    header{
-        height: 14vw;
+        height: 80px;
     }
     .cta-home{
-        padding: 75px 160px;
+        padding: 6vw 13vw;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1100px){
     header{
-        height: 18vw;
+        height: 50px;
     }
 }
 
@@ -79,11 +74,11 @@ header{
     }
     #hamburger{
         display: flex;
-        padding: 1vw 1.5vw;
+        padding: 10px 10px;
         border-radius: 50px;
     }
     #hamburger img{
-        width: 50px;
+        width: 35px;
         cursor: pointer;
     }
     .hamburger-icon{
@@ -108,12 +103,12 @@ header{
         top: 25%;
         width: 100%;
         text-align: center;
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .overlay a{
         padding: 8px;
         text-decoration: none;
-        font-size: 10vw;
+        font-size: 5vw;
         color: black;
         display: block;
         transition: 0.2s;
@@ -131,10 +126,14 @@ header{
     }
 
 }
+@media only screen and (max-width: 1100px){
+    #hamburger img{
+        width: 25px;
+    }
+}
 
 /* Footer CSS */
 footer{
-    margin-top: 1vw;
     position: static;
     background-color: #146e44;
     color: white;
@@ -143,17 +142,17 @@ footer{
     padding: 8vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .footer-txt{
-    min-width: 360px;
-    width: 60%;
+    flex: 1;
     margin: auto;
     font-size: 3vh;
 }
 .footer-list-box{
-    min-width: 360px;
+    flex: 1;
+    text-align: right;
     font-size: 3vh;
 }
 .footer-list-box ul{
@@ -182,16 +181,15 @@ footer{
     }
     .footer-txt{
         font-size: 3vw;
-        width: 100%;
     }
     .footer-list-box{
+        text-align: left;
         padding: 0;
         padding-top: 3vh;
         font-size: 3vw;
     }
     .footer-list-box ul{
         display: flex;
-        align-items: center;
         justify-content: center;
     }
     .copyright{

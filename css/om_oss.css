@@ -1,26 +1,28 @@
 section{
     font-size: 3vh;
-    width: 90%;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
 }
 .sec1{
     padding-top: 25vh;
+    width: 90%;
+    margin: auto;
     align-items: center;
     justify-content: center;
 }
 .txt1{
     width: 60%;
-    min-width: 360px;
+    margin: auto;
 }
 .top-pic{
     width: 35%;
-    min-width: 360px;
+    margin: auto;
     padding: 2vh;
 }
 
 .ansatte{
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -30,7 +32,6 @@ section{
     align-items: center;
     padding: 5vh;
     width: 30vw;
-    min-width: 360px;
     margin: 2vh 2vw;
     border: #146e44 solid 3px;
     background-color: rgba(20,110,68,0.4);
@@ -50,7 +51,6 @@ section{
 }
 .profil{
     width: 18vw;
-    min-width: 150px;
     display: none;
 }
 @media only screen and (max-width: 1200px){
@@ -58,23 +58,34 @@ section{
         font-size: 3vw;
     }
     .sec1{
-        padding-top: 35vh;
+        padding-top: 200px;
+        width: 90%;
     }
     .txt1{
         width: 90%;
     }
     .top-pic{
         width: 50%;
+        margin: auto;
+    }
+    .ansatte{
+        width: auto;
+        margin: auto;
+        padding: 2vh;
     }
     .ansatt{
         width: 90%;
+        padding: 2vh;
+        margin: 1vh auto;
     }
     .title{
         font-size: 3vw;
+        padding: 2vh;
     }
+
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1100px){
     .sec1{
-        padding-top: 15vh;
+        padding-top: 100px;
     }
 }

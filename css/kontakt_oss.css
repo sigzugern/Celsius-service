@@ -21,11 +21,9 @@
 .kontakt-oss-txt{
     padding: 2vh;
     width: 50%;
-    min-width: 360px;
 }
 .kontakt-oss-liste{
     padding: 2vh;
-    min-width: 360px;
 }
 .kontakt-oss-liste ul li{
     padding: 1vw;
@@ -47,24 +45,32 @@ footer{
 
 @media only screen and (max-width: 1200px){
     .sec1{
-        padding: 3vh;
-        padding-top: 5vh;
+        padding: 2vh;
+        padding-top: 200px;
         background-image: none;
         font-size: 3vw;
     }
     .kontakt-box1{
-        padding: 8vh 0;
+        padding: 1vh 0;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
     }
     .kontakt-oss-txt{
-        width: 100%;
+        width: 90%;
+    }
+    .kontakt-oss-liste{
+        width: 90%;
     }
     .kontakt-oss-liste ul{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .sec1{
+        padding-top: 100px;
     }
 }
